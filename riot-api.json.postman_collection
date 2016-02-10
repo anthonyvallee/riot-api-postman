@@ -1,0 +1,1112 @@
+{
+	"id": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+	"name": "League of Legends / Riot",
+	"description": "# League of Legends / Riot\n\nThis is a collection requests that can be parameterized for\nLeague of Legends' REST API. The full API reference can be found on [Riot Games API](https://developer.riotgames.com/api/methods).\n\n### Environment variables [(how-to)](https://www.getpostman.com/docs/environments) :\n\n\n`baseurl` : represents the url which is going to be queried.\n            By default, this value shoud be [api.pvp.net]().\n\n`region` : region where to retrieve data.\n\n`apikey` : is your key to access Riot's API.\n\n\n#### The following endpoint categories are available :\n* champion-v1.2\n* championmastery\n* current-game-v1.0\n* featured-games-v1.0\n* game-v1.3\n* league-v2.5\n* lol-static-data-v1.2\n* lol-status-v1.0\n* match-v2.2\n* matchlist-v2.2\n* stats-v1.3\n* summoner-v1.4\n* team-v2.4",
+	"order": [],
+	"folders": [
+		{
+			"id": "94f4e96e-2fd5-3155-ddae-b72848fa729d",
+			"name": "Champion",
+			"description": "",
+			"order": [
+				"fa54808c-9d01-1a34-d725-518402b60d6f",
+				"13dce90b-049a-18a9-efe2-a5e41929300a"
+			],
+			"owner": 0
+		},
+		{
+			"id": "a256c177-2bc6-684d-ce58-44e625fdd3aa",
+			"name": "Champion mastery",
+			"description": "",
+			"order": [
+				"69a145b1-06b9-7b0f-dc4b-ec14ee014dc0",
+				"4f5241c7-54f0-d138-10a5-7270dcb91290",
+				"a4cb9499-fd14-2dde-c2ff-2a9999634979",
+				"1ed03eac-5e62-028c-7151-e38635257815"
+			],
+			"owner": 0,
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10"
+		},
+		{
+			"id": "62d436fe-8786-11ec-6647-5642f2e8eaa2",
+			"name": "Current game",
+			"description": "",
+			"order": [
+				"34210c7a-d85f-9f0e-75ef-09a6b2938d71"
+			],
+			"owner": 0
+		},
+		{
+			"id": "3c820be3-46fd-4c64-d01b-829e69ed502e",
+			"name": "Featured games",
+			"description": "",
+			"order": [
+				"d1abb299-0a36-2c51-b13d-5402873a16d6"
+			],
+			"owner": 0
+		},
+		{
+			"id": "e92be4b0-495c-6c72-aac6-e2e936b56960",
+			"name": "Game",
+			"description": "",
+			"order": [
+				"d1a48fc4-97e4-fdee-4ba9-52753b80f614"
+			],
+			"owner": 0
+		},
+		{
+			"id": "671d22bc-b126-fd7d-3c0e-0a2167e542cf",
+			"name": "League",
+			"description": "",
+			"order": [
+				"9f83c118-3d00-b0b6-3497-7c4d7ff77f86",
+				"38e85d5b-c92b-c35b-7009-7acafd9e3879",
+				"46fbd64d-02a2-73be-cdfd-622941e03add",
+				"967e6f07-6e00-0822-e8df-ddaa77e650fd",
+				"f9c11d50-dd16-b452-69a5-7d4f896b93aa",
+				"9fb700e3-7c43-d4a8-23fb-77f2a8afd968"
+			],
+			"owner": 0
+		},
+		{
+			"id": "37cf3a96-a89c-858f-a307-5bc0b95aa84e",
+			"name": "LoL static data",
+			"description": "",
+			"order": [
+				"63f9e1a0-a8aa-4fe7-3f44-4ecf08592df1",
+				"ed2b75e5-560a-631f-1502-d6ef5a79c851",
+				"c1dea6d6-a94a-447b-abd1-5e40cec53ef8",
+				"c8b41220-ac25-5ae2-9faa-500c937e12f7",
+				"e8036052-9a3e-6388-cd43-3a955f472dd6",
+				"fcaca074-2f5b-b00c-7d66-c4a7d50f73be",
+				"5a985f7a-2426-4f66-9493-62399027ccfa",
+				"08ffdb1a-ec73-f615-9345-66221feeedf4",
+				"3dd562fb-26e1-b052-bd25-e2cc387f72f2",
+				"b1a49728-2273-b1cd-0995-e9b9f2253897",
+				"2699dafd-2627-562f-83e3-d53fb9c4d010",
+				"5c532ece-f5ef-fc60-b1b2-6e4a87e1fe38",
+				"b1a9fde9-c695-abdc-4b25-059277041d40",
+				"605b10aa-d6c0-8e4c-1eef-d16eee992957",
+				"753d1fa4-964f-9646-083c-00b6407c524c"
+			],
+			"owner": 0,
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10"
+		},
+		{
+			"id": "1cd89922-408b-5f0d-2025-59a8163aa196",
+			"name": "LoL status",
+			"description": "",
+			"order": [
+				"83612c10-989b-558b-9f51-ecc00beb87b3",
+				"3727e508-5fce-54b8-94a2-7b54e49330ae"
+			],
+			"owner": 0
+		},
+		{
+			"id": "d8ae6598-06e8-693a-d4d2-9b2fadeca54b",
+			"name": "Match",
+			"description": "",
+			"order": [
+				"ef16b7ea-811b-1fce-4ad6-6986ea940f04"
+			],
+			"owner": 0
+		},
+		{
+			"id": "f0f03c30-7bb2-cbd8-6341-37feecd64c2e",
+			"name": "Matchlist",
+			"description": "",
+			"order": [
+				"4e73d59b-ce93-afee-f914-7d63e23ef2b9"
+			],
+			"owner": 0
+		},
+		{
+			"id": "479d4a60-e35d-e2d0-53ed-876a31077775",
+			"name": "Stats",
+			"description": "",
+			"order": [
+				"1c468248-cd20-9065-f039-d637eeebb9e4",
+				"c90b0ba4-0fc7-57ed-3a2d-c5862dfea4ad"
+			],
+			"owner": 0
+		},
+		{
+			"id": "740fe607-8686-a80f-923d-d2724f9c6ae8",
+			"name": "Summoner",
+			"description": "",
+			"order": [
+				"ebd2c6a0-9c00-5ea5-709a-6f68134141c6",
+				"d7b77d36-b55a-13ec-607e-ed3f0e6bb53f",
+				"2838dc18-cd60-2a31-f6c0-a6ee1d54c59b",
+				"3d84efb4-3d17-ee34-6326-e573e4b1745b",
+				"e453d136-4a64-0886-7c74-4902b0501f43",
+				"16fff1c9-e3e8-5767-6af0-8e6231f1bf83"
+			],
+			"owner": 0
+		},
+		{
+			"id": "419f3591-0ac0-2d3c-46c1-ee32ea8e9e8c",
+			"name": "Team",
+			"description": "",
+			"order": [
+				"595295c1-4eb3-51b3-ee95-2a1bf26f947e",
+				"baa214d6-a815-68c6-fce8-3bbaf6ad68c9"
+			],
+			"owner": 0
+		}
+	],
+	"timestamp": 1455057496155,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "08ffdb1a-ec73-f615-9345-66221feeedf4",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/mastery?api_key={{apikey}}&locale&version&masteryListData",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070645498,
+			"name": "Retrieves mastery list",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "13dce90b-049a-18a9-efe2-a5e41929300a",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.2/champion/:id?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"id": null,
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455064289838,
+			"name": "Retrieve champion by ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "16fff1c9-e3e8-5767-6af0-8e6231f1bf83",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.4/summoner/:summonerIds/runes?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455067397866,
+			"name": "Get rune pages for a given list of summoner IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "1c468248-cd20-9065-f039-d637eeebb9e4",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.3/stats/by-summoner/:summonerId/ranked?api_key={{apikey}}&season",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455071273041,
+			"name": "Get ranked stats by summoner ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "1ed03eac-5e62-028c-7151-e38635257815",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/championmastery/location/:platformId/player/:summonerId/topchampions?api_key={{apikey}}&count",
+			"preRequestScript": "",
+			"pathVariables": {
+				"platformId": null,
+				"summonerId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070842324,
+			"name": "Get specified number of top champion mastery entries by summoner ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "2699dafd-2627-562f-83e3-d53fb9c4d010",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/rune?api_key={{apikey}}&locale&version&runeListData",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070663307,
+			"name": "Retrieves rune list",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "2838dc18-cd60-2a31-f6c0-a6ee1d54c59b",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.4/summoner/:summonerIds?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455067117491,
+			"name": "Get summoner objects for a given list of summoner IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "34210c7a-d85f-9f0e-75ef-09a6b2938d71",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/observer-mode/rest/consumer/getSpectatorGameInfo/:platformId/:summonerId?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"platformId": null,
+				"summonerId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455064537326,
+			"name": "Get current game information for the given summoner ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "3727e508-5fce-54b8-94a2-7b54e49330ae",
+			"headers": "",
+			"url": " http://status.leagueoflegends.com/shards/:region",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455066407716,
+			"name": "Get shard status",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "38e85d5b-c92b-c35b-7009-7acafd9e3879",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v2.5/league/by-summoner/:summonerIds/entry?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455065062395,
+			"name": "Get league entries for a given list of summoner IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "3d84efb4-3d17-ee34-6326-e573e4b1745b",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.4/summoner/:summonerIds/masteries?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455067186115,
+			"name": "Get mastery pages for a given list of summoner IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "3dd562fb-26e1-b052-bd25-e2cc387f72f2",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/mastery/:masteryId?api_key={{apikey}}&locale&version&masteryData",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"masteryId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070652481,
+			"name": "Retrieves mastery item by its unique ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "46fbd64d-02a2-73be-cdfd-622941e03add",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v2.5/league/by-team/:teamIds?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"teamIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455065155004,
+			"name": "Get leagues for a given list of team IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "4e73d59b-ce93-afee-f914-7d63e23ef2b9",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v2.2/matchlist/by-summoner/:summonerId?api_key={{apikey}}&championIds&rankedQueues&seasons&beginTime&endTime&beginIndex&endIndex",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455071210316,
+			"name": "Retrieve match list by summoner ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "4f5241c7-54f0-d138-10a5-7270dcb91290",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/championmastery/location/:platformId/player/:summonerId/champions?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"platformId": null,
+				"summonerId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455064275735,
+			"name": "Get all champion mastery entries by summoner ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "595295c1-4eb3-51b3-ee95-2a1bf26f947e",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v2.4/team/by-summoner/:summonerIds?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455067451922,
+			"name": "Get teams for a given list of summoner IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "5a985f7a-2426-4f66-9493-62399027ccfa",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/map?api_key={{apikey}}&locale&version",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070630406,
+			"name": "Retrieve map data",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "5c532ece-f5ef-fc60-b1b2-6e4a87e1fe38",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/rune/:runeId?api_key={{apikey}}&locale&version&runeData",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"runeId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070669066,
+			"name": "Retrieves rune by its unique ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "605b10aa-d6c0-8e4c-1eef-d16eee992957",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/summoner-spell/:spellId?api_key={{apikey}}&locale&version&spellData",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"spellId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070685324,
+			"name": "Retrieves summoner spell by its unique ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "63f9e1a0-a8aa-4fe7-3f44-4ecf08592df1",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/champion?api_key={{apikey}}&locale&version&dateById&champData",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070551430,
+			"name": "Retrieves champion list",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "69a145b1-06b9-7b0f-dc4b-ec14ee014dc0",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/championmastery/location/:platformId/player/:summonerId/champion/{championId}?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"platformId": null,
+				"summonerId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455064282026,
+			"name": "Get a champion mastery by summoner ID and champion ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "753d1fa4-964f-9646-083c-00b6407c524c",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/versions?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455069831791,
+			"name": "Retrieve version data",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "83612c10-989b-558b-9f51-ecc00beb87b3",
+			"headers": "",
+			"url": "http://status.leagueoflegends.com/shards",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455066408772,
+			"name": "Get shard list",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "967e6f07-6e00-0822-e8df-ddaa77e650fd",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v2.5/league/by-team/:teamIds/entry?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"teamIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455065262425,
+			"name": "Get league entries for a given list of team IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "9f83c118-3d00-b0b6-3497-7c4d7ff77f86",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v2.5/league/by-summoner/:summonerIds?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455064875736,
+			"name": "Get leagues for a given list of summoner IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "9fb700e3-7c43-d4a8-23fb-77f2a8afd968",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v2.5/league/master?api_key={{apikey}}&type=",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070950534,
+			"name": "Get master tier leagues",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "a4cb9499-fd14-2dde-c2ff-2a9999634979",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/championmastery/location/:platformId/player/:summonerId/score?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"platformId": null,
+				"summonerId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455064267567,
+			"name": "Get a player's total champion mastery score by summoner ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "b1a49728-2273-b1cd-0995-e9b9f2253897",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/realm?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455068986535,
+			"name": "Retrieve realm data",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "b1a9fde9-c695-abdc-4b25-059277041d40",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/summoner-spell?api_key={{apikey}}&locale&version&dataById&spellData",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070676200,
+			"name": "Retrieves summoner spell list",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "baa214d6-a815-68c6-fce8-3bbaf6ad68c9",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v2.4/team/:teamIds?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"teamIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455067516034,
+			"name": "Get teams for a given list of team IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "c1dea6d6-a94a-447b-abd1-5e40cec53ef8",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/item?api_key={{apikey}}&locale&version&itemListData",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070612991,
+			"name": "Retrieves item list",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "c8b41220-ac25-5ae2-9faa-500c937e12f7",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/item/:itemId?api_key={{apikey}}&locale&version&itemData",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"itemId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070613790,
+			"name": "Retrieves item by its unique ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "c90b0ba4-0fc7-57ed-3a2d-c5862dfea4ad",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.3/stats/by-summoner/:summonerId/summary?api_key={{apikey}}&season",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455071285036,
+			"name": "Get player stats summaries by summoner ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "d1a48fc4-97e4-fdee-4ba9-52753b80f614",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.3/game/by-summoner/:summonerId/recent?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455064765690,
+			"name": "Get recent games by summoner ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "d1abb299-0a36-2c51-b13d-5402873a16d6",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/observer-mode/rest/featured?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455064685835,
+			"name": "Get the list of featured games",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "d7b77d36-b55a-13ec-607e-ed3f0e6bb53f",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.4/summoner/by-name/:summonerNames?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerNames": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455071131018,
+			"name": "Get summoner objects  for a given list of summoner names",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "e453d136-4a64-0886-7c74-4902b0501f43",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.4/summoner/:summonerIds/name?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"summonerIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455067234988,
+			"name": "Get summoner names for a given list of summoner IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "e8036052-9a3e-6388-cd43-3a955f472dd6",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/language-strings?api_key={{apikey}}&locale&version",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070614476,
+			"name": "Retrieve language strings data",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "ebd2c6a0-9c00-5ea5-709a-6f68134141c6",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.4/summoner/by-account/:accountIds?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": null,
+				"accountIds": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455066865398,
+			"name": "Get summoner objects for a given list of account IDs",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "ed2b75e5-560a-631f-1502-d6ef5a79c851",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/champion/:championId?api_key={{apikey}}&locale&version&champData",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"championId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070612379,
+			"name": "Retrieves a champion by its ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "ef16b7ea-811b-1fce-4ad6-6986ea940f04",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v2.2/match/:matchId?api_key={{apikey}}&includeTimeline",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}",
+				"matchId": null
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070994109,
+			"name": "Retrieve match by match ID",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "f9c11d50-dd16-b452-69a5-7d4f896b93aa",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v2.5/league/challenger?api_key={{apikey}}&type=",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070934254,
+			"name": "Get challenger tier leagues",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "fa54808c-9d01-1a34-d725-518402b60d6f",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/:region/v1.2/champion?api_key={{apikey}}&freeToPlay",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455070794933,
+			"name": "Retrieve all champions",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		},
+		{
+			"id": "fcaca074-2f5b-b00c-7d66-c4a7d50f73be",
+			"headers": "",
+			"url": "https://{{region}}.{{baseurl}}/api/lol/static-data/:region/v1.2/languages?api_key={{apikey}}",
+			"preRequestScript": "",
+			"pathVariables": {
+				"region": "{{region}}"
+			},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455068462177,
+			"name": "Retrieve supported languages data",
+			"description": "",
+			"collectionId": "9895813d-3cf9-c3be-b205-7acdf4abee10",
+			"responses": []
+		}
+	]
+}
