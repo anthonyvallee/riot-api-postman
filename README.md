@@ -1,16 +1,18 @@
 # League of Legends' API for Postman
 
-This is a Postman request collection that can be parameterized for all of League of Legends' API methods. The full API reference can be found on [Riot Games API](https://developer.riotgames.com/api/methods).
+This is a Postman request collection that can be parameterized for all of League of Legends' API methods. The full API reference can be found on the [Riot Games API](https://developer.riotgames.com/api/methods) page.
 
 ### Environment variables [(how-to)](https://www.getpostman.com/docs/environments) :
 
 
 `baseurl` : represents the url which is going to be queried.
-            By default, this value shoud be [api.pvp.net]().
+            By default, this value shoud be __api.pvp.net__.
 
-`region` : region where to retrieve data.
+`region` :  region where to retrieve data.
+            It may be one of following values: __br, eune, euw, jp, kr, lan, las, na, oce, ru, tr__.
+            These values were taken in [Riot's API documentation](https://developer.riotgames.com/api/methods).
 
-`apikey` : is your key to access Riot's API.
+`apikey` :  is your private key to access Riot's API.
 
 
 #### The following endpoint categories are available :
